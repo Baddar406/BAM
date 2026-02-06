@@ -1,5 +1,5 @@
 # BAM
 # Team project
-# Marek-Senior Programmer
+# Marek-Jun
 # Baddar-Leader
-# Artjom-Janitor
+# Artjom-Senior Programmer
