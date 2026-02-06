@@ -7,13 +7,23 @@
 
 /* Page background and font */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #000080 0%,
+        #000080 33.33%,
+        #000000 33.33%,
+        #000000 66.66%,
+        #ffffff 66.66%,
+        #ffffff 100%
+    );
 }
+
 
 /* Header styling */
 header {
-    background-color: #333;
+    background-color: #000080;
     color: white;
     text-align: center;
     padding: 20px;
