@@ -14,3 +14,37 @@ body {
     margin: 0;
 }
 
+/* ====== Header ====== */
+header {
+    background: linear-gradient(
+        90deg,
+        var(--est-blue),
+        #005fa8
+    );
+    color: var(--est-white);
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* ====== Gallery ====== */
+.Gallery {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.Gallery > div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 114, 206, 0.25);
+}
+
