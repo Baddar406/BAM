@@ -94,3 +94,15 @@ a:hover {
     font-size: 1rem;
     line-height: 1.6;
 }
+
+/* ====== Back button ====== */
+.btn-estonia {
+    background-color: var(--est-blue);
+    color: var(--est-white);
+    border: none;
+}
+
+.btn-estonia:hover {
+    background-color: #005fa8;
+    color: var(--est-white);
+}
