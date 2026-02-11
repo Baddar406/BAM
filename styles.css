@@ -106,3 +106,52 @@ a:hover {
     background-color: #005fa8;
     color: var(--est-white);
 }
+
+/* ====== Simple content pages ====== */
+body {
+    padding: 2rem 1rem;
+}
+
+/* Page title */
+body > h1 {
+    max-width: 900px;
+    margin: 2rem auto 1.5rem;
+    text-align: center;
+    color: var(--est-blue);
+    font-weight: 600;
+}
+
+/* Main text */
+body > p {
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    background-color: var(--est-white);
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Return link */
+body > a {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.6rem 1.4rem;
+    background-color: var(--est-blue);
+    color: var(--est-white);
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body > a:hover {
+    background-color: #005fa8;
+    transform: translateY(-2px);
+    color: var(--est-white);
+}
+
+/* Center the return button */
+body {
+    text-align: center;
+}
